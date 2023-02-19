@@ -1,12 +1,18 @@
-'''durga='Durga Prasad is a good boy'
-print((durga+' ')*3)
-print('nice' not in 'Prasad is a nice person')
-print(9^8)'''
-
-a,b=input('Enter x,y values').split(',')
-x=int(a)
-y=int(b)
-if x>=y:
-    print('{} is greater than {}'.format(x,y))
-else:
-    print('{} is lesser than {}'.format(x,y))
+marks=[35,56,78,45,87,98]
+print(marks)
+print(type(marks))
+marks[1]=65
+print(marks)
+marks.append(77)
+print(marks)
+marks.extend([44,55])
+print(marks)
+print(marks[::-1])
+marks.insert(2,88)
+print(marks)
+del marks[0]
+print(marks)
+marks.remove(55)
+print(marks)
+print(marks.pop(0))
+print(marks)
