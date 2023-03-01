@@ -1,18 +1,8 @@
-marks=[35,56,78,45,87,98]
-print(marks)
-print(type(marks))
-marks[1]=65
-print(marks)
-marks.append(77)
-print(marks)
-marks.extend([44,55])
-print(marks)
-print(marks[::-1])
-marks.insert(2,88)
-print(marks)
-del marks[0]
-print(marks)
-marks.remove(55)
-print(marks)
-print(marks.pop(0))
-print(marks)
+a=int(input('Enter first number'))
+b=int(input('Enter second number'))
+i=1
+while(a>i and b>i):
+    if(a%i==0 and b%i==0):
+        n=i
+    i+=1
+print(n)
